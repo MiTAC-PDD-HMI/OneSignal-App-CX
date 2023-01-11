@@ -1,1 +1,1 @@
-# OneSignal-App-CX
+# MioNext App Customer Experience Project
