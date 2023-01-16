@@ -2,10 +2,30 @@
 
 ## 簡介
 
-為了讓 MioNext App 可以更有效的與使用者進行互動並在未來建立可觀的 User Database，此項目透過 [OneSignal](https://onesignal.com/) 與 [SurveyCake](https://www.surveycake.com/) 這兩套主流推播與線上問卷工具來達成 MioNext 對使用者數據的主動與被動收集模式。
+為了讓 MioNext App 可以更有效的與使用者進行互動並在未來建立可觀的 User Database，此項目透過整合了以下幾個工具來達成 MioNext 對使用者數據的主動與被動收集與分析。
+
+- 主動工具
+  - [OneSignal](https://onesignal.com/)
+    - 主流推播工具之一。
+    - 對使用者推播問卷，主動對使用者進行數據搜集。
+- 被動工具
+  - [Google Analytics for Firebase](https://firebase.google.com/docs/analytics) (🚧 WIP)
+    - 原 Firebase Analytic 現改名 Google Analytics for Firebase，主流數據搜集工具。
+    - 設置 Events 於 App 中，並在 App 背景中對使用者的操作進行被動數據搜集。
+- 問卷工具
+  - [SurveyCake](https://www.surveycake.com/)
+    - 主流線上問卷工具之一。
+    - 透過 OneSignal 服務推播問卷至 App 中達成主動對使用者數據搜集。
+
+> 註：本項目僅展示主要的數據搜集規格與模式，並用做項目 POC 展示所使用，非 MioNext 正式 App
 
 **整體架構：**
 
 - [OneSignal & SurveyCake Integration Sequence Diagram](https://www.figma.com/file/4jPXqQIToo5NScE4yCZ1fq/N712-B2C_UX-Research?node-id=679%3A4469&t=KDQ82RW8c1tboUj3-4)
 
 **支持功能：**
+
+1. 在 App 中接收 OneSignal 於 Dashboard 中設置的 Push Notification
+2. 在 App 中操作完某個 Function 後傳送 Data Tags 至 OneSignal Dashboard
+3. 在 App 中接收 OneSignal 於 Dashboard 中設置的 IAM (In-App Message)
+4. 將 App 已設置的 Event 傳送至 Google Analytic Dashboard 中
