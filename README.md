@@ -1,6 +1,6 @@
 # MioNext App Customer Experience Project
 
-## 簡介
+## 一、簡介
 
 為了讓 MioNext App 可以更有效的與使用者進行互動並在未來建立可觀的 User Database，此項目透過整合了以下幾個工具來達成 MioNext 對使用者數據的主動與被動收集與分析。
 
@@ -28,4 +28,11 @@
 1. 在 App 中接收 OneSignal 於 Dashboard 中設置的 Push Notification
 2. 在 App 中操作完某個 Function 後傳送 Data Tags 至 OneSignal Dashboard
 3. 在 App 中接收 OneSignal 於 Dashboard 中設置的 IAM (In-App Message)
-4. 將 App 已設置的 Event 傳送至 Google Analytic Dashboard 中
+4. 將 App 已設置的 Events 傳送至 Google Analytic Dashboard 中
+
+## 二、編譯環境
+
+- iOS 14+
+- Android 10+
+
+## 三、實際展示
