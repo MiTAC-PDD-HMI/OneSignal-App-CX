@@ -21,11 +21,11 @@
 
 > 註：本項目僅展示主要的數據搜集規格與模式，並用做項目 POC 展示所使用，非 MioNext 正式 App
 
-**整體架構：**
+#### 整體架構：
 
 - [OneSignal & SurveyCake Integration Sequence Diagram](https://www.figma.com/file/4jPXqQIToo5NScE4yCZ1fq/N712-B2C_UX-Research?node-id=679%3A4469&t=KDQ82RW8c1tboUj3-4)
 
-**支持功能：**
+#### 支持功能：
 
 1. 在 App 中接收 OneSignal 於 Dashboard 中設置的 Push Notification
 2. 在 App 中操作完某個 Function 後傳送 Data Tags 至 OneSignal Dashboard
@@ -33,12 +33,12 @@
 4. 將 SurveyCake embedded 至 OneSignal IAM 中並推送至 App 中
 5. 將 App 已設置的 Events 傳送至 Google Analytic Dashboard 中
 
-## 二、編譯環境
+#### 編譯環境：
 
 - iOS 14+
 - Android 10+
 
-## 三、效果展示
+## 二、效果展示
 
 **OneSignal Push Notification Demo**
 <img src="https://user-images.githubusercontent.com/10300848/212827696-00c7bafd-bd92-4d00-968f-4095ab3cb2a6.png">
@@ -49,7 +49,11 @@
 **OneSignal In-App Message + SurveyCake Demo**
 <img src="https://user-images.githubusercontent.com/10300848/212837296-6d95ea0c-e717-451a-a40e-c47667de855c.png">
 
-## 四、安裝說明 (🚧 WIP)
+## 三、機制說明
+
+本項目採用 OneSignal 中比較常見的 method 來達成上述的[功能](#支持功能)，主要有 sendTag(s)、 addTrigger(s)、setNotificationOpenedHandler，這裡僅說明大概的使用方式，以及如何運用在此項目中並達成使用者數據搜集的目的，如果需要更詳細的 SDK 或 API 資訊可以再參考 [OneSignal 官方 Documentation](https://documentation.onesignal.com/docs)
+
+## 四、安裝 (🚧 WIP)
 
 **4.1 下載專案**
 
@@ -57,4 +61,4 @@
 
 **4.2 環境設置**
 
-1.
+可參考 Repo 內的 README 指示進行安裝
