@@ -1,6 +1,6 @@
 # MioNext App Customer Experience Project
 
-<img src="https://user-images.githubusercontent.com/10300848/212824961-96619cd8-83e0-406e-ac9e-9e8accf22778.png" width="800" height:auto>
+![demoImage](https://user-images.githubusercontent.com/10300848/212829134-8783176f-fe7f-41c9-a3c1-d2747321994e.png)
 
 ## 一、簡介
 
@@ -39,3 +39,8 @@
 
 ## 三、實際展示
 
+**OneSignal Push Notification Demo**
+<img src="https://user-images.githubusercontent.com/10300848/212827696-00c7bafd-bd92-4d00-968f-4095ab3cb2a6.png">
+
+**OneSignal Push Notification In-App Message Demo**
+<img src="https://user-images.githubusercontent.com/10300848/212827977-441c36e9-d237-468c-a440-3228b6fd5ce1.png">
