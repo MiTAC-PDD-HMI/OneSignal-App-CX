@@ -4,14 +4,14 @@
 
 ## 一、簡介
 
-為了讓 MioNext App 可以更有效的與使用者進行互動並在未來建立可觀的 User Database，此項目透過整合了以下幾個工具來達成 MioNext 對使用者數據的主動與被動收集與分析。
+為了讓 MioNext App 可以更有效的與使用者進行互動並在未來建立可觀的 User Database，此項目透過整合了以下幾個工具來達成 MioNext 對使用者數據的主動與被動數據搜集與分析。
 
 - 主動工具
   - [OneSignal](https://onesignal.com/)
     - 主流推播工具之一。
     - 對使用者推播問卷，主動對使用者進行數據搜集。
 - 被動工具
-  - [Google Analytics for Firebase](https://firebase.google.com/docs/analytics) (🚧 WIP)
+  - [Google Analytics for Firebase](https://firebase.google.com/docs/analytics)
     - 原 Firebase Analytic 現改名 Google Analytics for Firebase，主流數據搜集工具。
     - 設置 Events 於 App 中，並在 App 背景中對使用者的操作進行被動數據搜集。
 - 問卷工具
@@ -48,3 +48,13 @@
 
 **OneSignal In-App Message + SurveyCake Demo**
 <img src="https://user-images.githubusercontent.com/10300848/212837296-6d95ea0c-e717-451a-a40e-c47667de855c.png">
+
+## 四、安裝說明 (🚧 WIP)
+
+**4.1 下載專案**
+
+[Download](https://github.com/weichiangko/mionext-cx-app/releases)
+
+**4.2 環境設置**
+
+1.
