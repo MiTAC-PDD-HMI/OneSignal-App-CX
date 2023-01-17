@@ -30,7 +30,8 @@
 1. 在 App 中接收 OneSignal 於 Dashboard 中設置的 Push Notification
 2. 在 App 中操作完某個 Function 後傳送 Data Tags 至 OneSignal Dashboard
 3. 在 App 中接收 OneSignal 於 Dashboard 中設置的 IAM (In-App Message)
-4. 將 App 已設置的 Events 傳送至 Google Analytic Dashboard 中
+4. 將 SurveyCake embedded 至 OneSignal IAM 中並推送至 App 中
+5. 將 App 已設置的 Events 傳送至 Google Analytic Dashboard 中
 
 ## 二、編譯環境
 
