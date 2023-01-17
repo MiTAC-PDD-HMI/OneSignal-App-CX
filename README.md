@@ -1,5 +1,7 @@
 # MioNext App Customer Experience Project
 
+<img src="https://user-images.githubusercontent.com/10300848/212824961-96619cd8-83e0-406e-ac9e-9e8accf22778.png" width="800" height:auto>
+
 ## 一、簡介
 
 為了讓 MioNext App 可以更有效的與使用者進行互動並在未來建立可觀的 User Database，此項目透過整合了以下幾個工具來達成 MioNext 對使用者數據的主動與被動收集與分析。
@@ -36,3 +38,4 @@
 - Android 10+
 
 ## 三、實際展示
+
