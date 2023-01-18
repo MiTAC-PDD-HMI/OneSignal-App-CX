@@ -55,9 +55,9 @@
 
 #### 3.1 sendTag(s)
 
-#### 3.1 addTrigger(s)
+#### 3.2 addTrigger(s)
 
-#### 3.1 setNotificationOpenedHandler
+#### 3.3 setNotificationOpenedHandler
 
 ## 四、安裝 (🚧 WIP)
 
