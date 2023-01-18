@@ -62,6 +62,6 @@
 ## 四、安裝 (🚧 WIP)
 
 - [原始碼下載](https://github.com/weichiangko/mionext-cx-app/releases)
-- [安裝方式](https://github.com/weichiangko/mionext-cx-app)
+- [安裝方式](https://github.com/weichiangko/mionext-cx-app#安裝方式)
 
 > 可參考 Repo 內的 README 指示進行安裝。
