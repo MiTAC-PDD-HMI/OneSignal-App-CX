@@ -49,16 +49,15 @@
 **OneSignal In-App Message + SurveyCake Demo**
 <img src="https://user-images.githubusercontent.com/10300848/212837296-6d95ea0c-e717-451a-a40e-c47667de855c.png">
 
-## 三、機制說明
+## 三、OneSignal 機制說明
 
 本項目僅使用了 OneSignal SDK Methods 中的 sendTag(s)、addTrigger(s)、setNotificationOpenedHandler 來達成上述的 [功能](#支持功能)。此章節僅初步解釋使用的方式，以及如何達成使用者數據搜集之目的。若需更多 SDK 或 API 資訊，請參考 [OneSignal 官方文件](<(https://documentation.onesignal.com/docs)>)。
 
+**3.1 sendTag(s)**
+
 ## 四、安裝 (🚧 WIP)
 
-**4.1 下載專案**
+- [原始碼下載](https://github.com/weichiangko/mionext-cx-app/releases)
+- [安裝方式](https://github.com/weichiangko/mionext-cx-app)
 
-[Download](https://github.com/weichiangko/mionext-cx-app/releases)
-
-**4.2 環境設置**
-
-可參考 Repo 內的 README 指示進行安裝
+> 可參考 Repo 內的 README 指示進行安裝。
