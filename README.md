@@ -53,7 +53,7 @@
 
 本項目僅使用了 OneSignal SDK Methods 中的 sendTag(s)、addTrigger(s)、setNotificationOpenedHandler 來達成上述的 [功能](#支持功能)。此章節僅初步解釋使用的方式，以及如何達成使用者數據搜集之目的。若需更多 SDK 或 API 資訊，請參考 [OneSignal 官方文件](<(https://documentation.onesignal.com/docs)>)。
 
-### 3.1 sendTag(s)
+#### 3.1 sendTag(s)
 
 #### 3.1 addTrigger(s)
 
